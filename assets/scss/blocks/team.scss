@@ -1,0 +1,9 @@
+.team {
+  &__title {
+    padding-top: 80px;
+    @include title;
+  }
+  &__text {
+    @include subtitle;
+  }
+}
